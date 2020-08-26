@@ -882,23 +882,23 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="https://formspree.io/meqrwyyg">
+            <form name="contactForm" id="contactForm" method="post" action="">
       			<fieldset>
 
                   <div class="form-field">
- 						   <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
-	      			   <input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
 	               </div>
-                  <!-- <div class="form-field">
+                  <div class="form-field">
 	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
 	               </div>
-                  <div class="form-field"> -->
-	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>
                  <div class="form-field">
-                     <button type="submit" class="submitform">Submit</button>
+                     <button class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>
        				      <div class="s-loader">
